@@ -146,7 +146,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  Math.pow(num, exponent);
+  return Math.pow(num,exponent);
 }
 
 function redondearNumero(num) {
@@ -227,7 +227,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro x 1.20;
+  return euro * 1.20;
 }
 
 
@@ -237,12 +237,11 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if(letra.length <= 1){
-    if(letra == "a" || "e" || "i" || "o" || "u"){
+  if(letra.length == 1){
+    if(letra === "a" || letra ==="e" || letra ==="i" || letra==="o" || letra==="u"){
       return "Es vocal";
-    }else{
-      return "Dato incorrecto"
     }
+      return "Dato incorrecto"
   }else{
     return "Dato incorrecto"
   }
