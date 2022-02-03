@@ -1,0 +1,7 @@
+For = Es una forma de repetir un numero que nosotros queramos de veces una acción determinada
+
+&& = Es la palabra Y, significa que debe ser correcta una cosa Y la otra
+
+||= Es la palabra O, significa que debe ser correcta una cosa U otra
+
+! = Es para invertir las cosas, si algo es verdaero con el ! pasa a ser falso y visceversa
