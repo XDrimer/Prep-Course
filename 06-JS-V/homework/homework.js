@@ -61,13 +61,13 @@ class Persona {
         this.apellido = apellido;
         this.edad = edad;
         this.domicilio = domicilio;
-        this.detalle = function() {
-            return objeto = {
-                Nombre: this.nombre,
-                Apellido: this.apellido,
-                Edad: this.edad,
-                Domicilio: this.domicilio,
-            }
+    }
+    detalle() {
+        return objeto = {
+            Nombre: this.nombre,
+            Apellido: this.apellido,
+            Edad: this.edad,
+            Domicilio: this.domicilio,
         }
     }
 
